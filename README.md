@@ -15,6 +15,9 @@
 Построено два ранжирования:
 
 ### 3.1. **По числу цитирований**
+
+Результат:
+
 - Graph of Thoughts: Solving Elaborate Problems with Large Language Models (Besta et al., 2024). DOI: 10.1609/aaai.v38i16.29720.
 
 - Towards Understanding Chain-of-Thought Prompting: An Empirical Study of What Matters (Wang et al., 2022). DOI: 10.48550/arXiv.2212.10001.
@@ -22,6 +25,10 @@
 - SWE-RL: Advancing LLM Reasoning via Reinforcement Learning on Open Software Evolution (Wei et al., 2025). DOI: 10.48550/arXiv.2502.18449.
 
 - An LLM Compiler for Parallel Function Calling (Kim et al., 2023). DOI: 10.48550/arXiv.2312.04511.
+
+Артефакты:
+
+https://app.litmaps.com/shared/6fc61e96-3941-4ae6-ab9c-13a4bffb7063
   
 ### 3.2. **По значению CD** — для выявления работ, оказавших наиболее заметное влияние на направление исследований.
 
@@ -36,7 +43,9 @@
 
 #### 3.2.2 Классический CD5
 
-Ограничение: область молодая и быстроразвивающаяся
+Ограничение: область молодая и быстроразвивающаяся, окно в 5 лет скорее не подходит, так как почти все статьи выпущены в 2022-2026 годах
+
+Артефакты: https://colab.research.google.com/drive/1Gi68e5U8f1KH4P2TAN72IuxkHruQO95G?usp=sharing
 
 ## 4. Граф цитирований
 
@@ -46,7 +55,11 @@
 
 ## 5. Проверка результатов
 
+Пересечение пустое. Причина - ни одна из 7 уникальных статей не попала в выбранную область.
+
 ### Мой выбор
+
+см 3.2.1
 
 ### ИИ-ассистент
 
@@ -62,7 +75,3 @@
 2. **Large Language Models are Zero-Shot Reasoners** — Kojima et al. Работа о zero-shot prompting и использовании инструкции *“Let's think step by step”* для улучшения решения задач.
 3. **Self-Consistency Improves Chain of Thought Reasoning in Language Models** — Wang et al. Метод генерации нескольких цепочек рассуждений с последующим выбором наиболее согласованного ответа.
 4. **Let's Verify Step by Step** — Lightman et al. Работа о процессной супервизии рассуждений и Process Reward Models (PRMs).
-
-## Артефакты
-
-https://colab.research.google.com/drive/1Gi68e5U8f1KH4P2TAN72IuxkHruQO95G?usp=sharing
